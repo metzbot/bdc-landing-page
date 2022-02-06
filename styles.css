@@ -1,0 +1,205 @@
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 900px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: max 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerRightNav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.headerRightNav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.headerRightNav a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.heroLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+    gap: 10px;
+}
+
+.heroLeft .mainTitle {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.heroLeft .subText {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.heroLeft button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2px 24px;
+}
+
+.heroRight {
+    background-color: #868686;
+    color: #E5E7EB;
+    font-weight: bold;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tileHeader {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.tileBox {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    padding-bottom: 60px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+.emptyTile {
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
+.emptyTile:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.tileText {
+    text-align: center;
+    color: #1F2937;
+    font-size: 22px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 60px;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0 40px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.author {
+    align-self: flex-end;
+    padding-right: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subfooter {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.subfooterBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 900px;
+    padding: 40px 0;
+}
+
+.subfooterBox button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 4px 20px;
+}
+
+.subfootText .titleText{
+    margin: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 40px;
+}
